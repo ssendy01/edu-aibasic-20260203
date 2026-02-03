@@ -219,7 +219,7 @@ b{color:#fff;}
 
 .cta{border-top:1px solid var(--line); background:rgba(255,255,255,.02);}
 .form{margin-top:14px; border:1px solid var(--line); background:var(--card); border-radius:var(--radius); padding:16px;}
-.form__row{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:10px;}
+.form__row{grid-template-columns:1fr 1fr; gap:10px; margin-bottom:10px; gap:20px;}
 .input{
   width:100%;
   padding:12px 12px;
@@ -617,4 +617,5 @@ b{color:#fff;}
 }
 @media (max-width: 640px){
   .course-grid{ grid-template-columns: 1fr; }
+
 }
